@@ -1,8 +1,6 @@
 class Solution(object):
     def convertTemperature(self, celsius):
-        kelvin =celsius + 273.15
-        fahrenheit= (celsius * 1.80 )+32.00
-        ans=[round(kelvin, 5),round(fahrenheit,5)]
+        ans=[celsius + 273.15,(celsius * 1.80 )+32.00]
         return ans
 
 sol=Solution()
