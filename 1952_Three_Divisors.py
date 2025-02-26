@@ -1,12 +1,15 @@
+
+import math
 class Solution(object):
-    def isThree(self, n):
-        count=0
-        for m in range(1,n+1):
-            if n%m==0:
-                count+=1
-        if count==3:
-            return True
-        else:
+    def isThree(self,n):
+        divisor_count =0
+        if n<=0:
             return False
-sol=Solution()
-print(sol.isThree(121))
+        sqrt_n = int(math.sqrt(n))
+        if sqrt_n * sqrt_n != n:
+            
+            return False
+            
+        for i in range(2, int(math.sqrt(sqrt_n))+ 1):
+            if sqrt_n % i ==0:
+                return False
