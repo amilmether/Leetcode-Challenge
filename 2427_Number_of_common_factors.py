@@ -7,8 +7,8 @@ class Solution(object):
         for i in range(1, gcd +1):
             if (a % i == 0):
                 cf.append(i)
-        return cf
+        return len(cf)
 
 
 sol=Solution()
-print(sol.commonFactors(100,80))
+print(sol.commonFactors(25, 30))
