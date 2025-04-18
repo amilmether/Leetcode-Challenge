@@ -1,8 +1,7 @@
 from collections import Counter
 class Solution(object):
     def judgeCircle(self, moves):
-        c = Counter(moves)
-        return c['U'] == c['D'] and c['L'] == c['R']
+        return moves.count('L') == moves.count('R') and moves.count('D') == moves.count('U')
 
 
 sol=Solution()
