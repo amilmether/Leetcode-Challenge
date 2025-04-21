@@ -4,9 +4,9 @@ def fixer(text):
     filename = text + '.py'                 # Add .py extension
     
     with open(filename, 'w') as f:          # Create and open the file
-        f.write("# New Python file\n")      # Add some default content (optional)
+        f.write("")      # Add some default content (optional)
 
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("9. Palindrome Number")
+fixer("1281. Subtract the Product and Sum of Digits of an Integer")
