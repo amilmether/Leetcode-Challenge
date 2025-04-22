@@ -1,13 +1,14 @@
 class Solution(object):
     def differenceOfSum(self, nums):
-        sum1=''.join(map(str, nums))
-        sum4=int(sum1)
-        sum2=sum(nums)
-        sum3=0
-        while sum4 > 0:
-            sum3+= sum4 % 10
-            sum4 = sum4 // 10
-        return sum2 - sum3
+        sum=0
+        sum2=0
+        for num in nums:
+            sum+=num
+            while num>0:
+                sum2+=num%10
+                num =num//10
+        return sum - sum2
+
 sol=Solution()
 arry=[1,15,6,3]
 print(sol.differenceOfSum(arry))
