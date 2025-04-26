@@ -1,9 +1,6 @@
 class Solution(object):
     def isPerfectSquare(self, num):
-        if (num ** 0.5).is_integer():
-            return True
-        else:
-            return False
+        return True if (num ** 0.5).is_integer() else False
         
 
 sol=Solution()
