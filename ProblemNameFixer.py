@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("367. Valid Perfect Square")
+fixer("1816. Truncate Sentence")
