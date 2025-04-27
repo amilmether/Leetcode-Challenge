@@ -1,10 +1,8 @@
 class Solution(object):
     def truncateSentence(self, s, k):
         arr=s.split()
-        finall=[]
-        for i in range(0,k) :
-            finall.append(arr[i])
-        return ' '.join(finall)
+        return ' '.join(arr[0:k])
+
 sol=Solution()
-arr="Hello how are you Contestant"
+arr="What is the solution to this problem"
 print(sol.truncateSentence(arr,4))
