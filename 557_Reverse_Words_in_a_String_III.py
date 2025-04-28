@@ -1,11 +1,6 @@
 class Solution(object):
     def reverseWords(self, s):
-        arr=s.split()
-        final=[]
-        for arry in arr:
-            final.append(arry[::-1])
-
-        return ' '.join(final)
+        return " ".join(s[::-1].split()[::-1])
 sol=Solution()
 arr="Let's take LeetCode contest"
 print(sol.reverseWords(arr))
