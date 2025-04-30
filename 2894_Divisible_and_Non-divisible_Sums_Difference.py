@@ -1,12 +1,8 @@
 class Solution(object):
     def differenceOfSums(self, n, m):
-        if m == 0:
-            return 0
-        for i in range(1,n+1):
-            if i % m == 0:
-                num2+=i
-            else:
-                num1+=i
-        return num1-num2
+        sum=n*(n+1) // 2
+        div=n//m
+        sum_div=m * div * (div+1) // 2
+        return sum - 2*sum_div
 sol=Solution()
-print(sol.differenceOfSums(1,0))
+print(sol.differenceOfSums(10,3))
