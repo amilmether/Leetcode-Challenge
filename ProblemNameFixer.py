@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("2894. Divisible and Non-divisible Sums Difference")
+fixer("520. Detect Capital")
