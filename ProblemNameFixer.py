@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("1662. Check If Two String Arrays are Equivalent")
+fixer("1528. Shuffle String")
