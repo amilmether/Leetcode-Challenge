@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("1351. Count Negative Numbers in a Sorted Matrix")
+fixer("3000. Maximum Area of Longest Diagonal Rectangle")
