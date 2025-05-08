@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("509. Fibonacci Number")
+fixer("70. Climbing Stairs")

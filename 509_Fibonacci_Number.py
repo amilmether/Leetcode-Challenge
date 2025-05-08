@@ -1,13 +1,13 @@
 class Solution(object):
     def fib(self,n):
         a=0
-        b=1 
-        print(a)
-        print(b)
-        for i in range(2,n):
+        b=1
+        if n==2:
+            return 1
+        for i in range(1,n):
             c=a+b
-            a = b
-            b = c
-            print(c)
+            a=b
+            b=c
+        return c
 sol=Solution()
-print(sol.fib(10))
+print(sol.fib(2))
