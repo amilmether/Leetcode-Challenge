@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("35. Search Insert Position")
+fixer("1678. Goal Parser Interpretation")
