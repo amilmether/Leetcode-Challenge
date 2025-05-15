@@ -1,21 +1,7 @@
 class Solution(object):
     def countMatches(self, items, ruleKey, ruleValue):
-        count=0
-        if ruleKey == "color":
-            for t,c,n in items:
-                if c == ruleValue:
-                    count+=1
-            return count
-        elif ruleKey == "type":
-            for t,c,n in items:
-                if t == ruleValue:
-                    count+=1
-            return count
-        elif ruleKey== "name":
-            for t,c,n in items:
-                if n == ruleValue:
-                    count+=1
-            return count
+        keys={"type":0,"color":1,"name":2}
+        return len([item for item in items if item[keys[ruleKey]] == ruleValue])
         
 
 sol=Solution()
