@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("2544. Alternating Digit Sum")
+fixer("1773. Count Items Matching a Rule")
