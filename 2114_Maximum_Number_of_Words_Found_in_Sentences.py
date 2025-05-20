@@ -1,13 +1,10 @@
 class Solution(object):
     def mostWordsFound(self, sentences):
-        top=0
-        final=[]
+        max_words=0
         for words in sentences:
-            for word in words.split():
-                top+=1
-            final.append(top)
-            top=0
-        return max(final)
+            word_count= len(words.split())
+            max_words=max(max_words,word_count)
+        return max_words 
     
 sol=Solution()
 arr=["please wait", "continue to fight", "continue to win"]
