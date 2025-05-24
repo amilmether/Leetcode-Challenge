@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("1385. Find the Distance Value Between Two Arrays")
+fixer("1688. Count of Matches in Tournament")
