@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("2864. Maximum Odd Binary Number")
+fixer("1385. Find the Distance Value Between Two Arrays")
