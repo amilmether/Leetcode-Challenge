@@ -7,7 +7,8 @@ Each problem folder contains:
 Python files (solution_v1.py, solution_v2.py, etc.) for different approaches.
 A README.md with problem description, approach explanation, and time/space complexity.
 
-
+![LeetCode Stats](https://leetcard.jacoblin.cool/amilmether?theme=dark&font=Poppins&ext=activity)
+![LeetCode Stats](https://leetcard.jacoblin.cool/amilmether?theme=dark&font=Alata&ext=heatmap)
 
 Usage
 
