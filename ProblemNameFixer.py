@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("1304. Find N Unique Integers Sum up to Zero")
+fixer("136. Single Number")
