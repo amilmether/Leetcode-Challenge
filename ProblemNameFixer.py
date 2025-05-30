@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("2540. Minimum Common Value")
+fixer("217. Contains Duplicate")
