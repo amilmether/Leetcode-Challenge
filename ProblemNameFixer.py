@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("1313. Decompress Run-Length Encoded List")
+fixer("2540. Minimum Common Value")
