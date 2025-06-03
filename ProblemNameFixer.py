@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("2828. Check if a String Is an Acronym of Words")
+fixer("389. Find the Difference")
