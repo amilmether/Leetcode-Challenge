@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("977. Squares of a Sorted Array")
+fixer("169. Majority Element")
