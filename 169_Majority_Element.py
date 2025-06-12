@@ -1,8 +1,13 @@
 class Solution(object):
     def majorityElement(self, nums):
-        count={}
+        elem = None
+        count = 0
         for num in nums:
-            count[num] = count.get(num,0)+1
-            if count[num] > len(nums) // 2:
-                return num
-        
+            if count == 0:
+                elem = num
+                count = 1
+            elif num == elem:
+                count += 1
+            else:
+                count -= 1
+        return elem
