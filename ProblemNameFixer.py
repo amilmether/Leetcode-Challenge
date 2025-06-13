@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("2190. Most Frequent Number Following Key In an Array")
+fixer("961. N-Repeated Element in Size 2N Array")
