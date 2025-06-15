@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("961. N-Repeated Element in Size 2N Array")
+fixer("242. Valid Anagram")
