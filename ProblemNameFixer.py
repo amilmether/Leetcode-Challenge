@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("2215. Find the Difference of Two Arrays")
+fixer("2351. First Letter to Appear Twice")
