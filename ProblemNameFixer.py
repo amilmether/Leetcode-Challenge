@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("1832. Check if the Sentence Is Pangram")
+fixer("1859. Sorting the Sentence")
