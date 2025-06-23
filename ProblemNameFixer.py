@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("1689. Partitioning Into Minimum Number Of Deci-Binary Numbers")
+fixer("442. Find All Duplicates in an Array")
