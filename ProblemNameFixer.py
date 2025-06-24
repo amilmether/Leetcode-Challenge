@@ -9,4 +9,4 @@ def fixer(text):
     print(f"{filename} created successfully!")
 
 # Example usage
-fixer("21. Merge Two Sorted Lists")
+fixer("83. Remove Duplicates from Sorted List")
