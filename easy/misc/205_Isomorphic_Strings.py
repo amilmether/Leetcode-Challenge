@@ -3,16 +3,12 @@
 
 class Solution:
     def isIsomorphic(self, s, t):
-        indexS = [0]*200
-        indexT = [0]*200
-        
-        length = len(s)
-
-        if length != len(t):
-            return False
-        for i in range(length):
-            if indexS[ord(s[i])] != indexT[ord(t[i])]:
+        mapping = dict()
+        for i in range(len(s)):
+            if s[i] not in mapping:
+                if t[i] in mapping.values():
+                    return False
+                mapping[s[i]] = t[i]
+            elif mapping[s[i]] != t[i]:
                 return False
-            indexS[ord(s[i])]=i+1
-            indexT[ord(t[i])]=i+1
         return True
